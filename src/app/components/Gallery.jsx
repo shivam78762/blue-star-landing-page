@@ -2,10 +2,10 @@ import React from 'react';
 
 const Gallery = () => {
   const sampleImages = [
-    'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300',
-    'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=300',
-    'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=300',
-    'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=300'
+     '/person-1.jpg',
+     '/person-2.jpg',
+     '/person-3.jpg',
+      '/person-4.jpg',
   ];
 
   return (
@@ -24,9 +24,9 @@ const Gallery = () => {
               <img
                 src={image}
                 alt={`Sample memory ${index + 1}`}
-                className="w-full h-64 object-cover"
+                className="w-full h-74"
               />
-              <div className="absolute inset-0 bg-blue-600 bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
+              <div className="absolute inset-0  group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <span className="text-white font-bold text-lg tracking-wider">
                     WATERMARK
