@@ -2,10 +2,10 @@ import React from 'react';
 
 const Gallery = () => {
   const sampleImages = [
-     '/person-1.jpg',
-     '/person-2.jpg',
-     '/person-3.jpg',
-      '/person-4.jpg',
+     '/image1.jpg',
+     '/image2.jpg',
+     '/image3.jpg',
+      '/image4.jpg',
   ];
 
   return (
@@ -24,7 +24,7 @@ const Gallery = () => {
               <img
                 src={image}
                 alt={`Sample memory ${index + 1}`}
-                className="w-full h-74"
+                className="w-full h-74 object-cover"
               />
               <div className="absolute inset-0  group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
