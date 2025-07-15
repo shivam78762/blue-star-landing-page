@@ -2,10 +2,10 @@ import React from 'react';
 
 const Gallery = () => {
   const sampleImages = [
-     '/image1.jpg',
-     '/image2.jpg',
-     '/image3.jpg',
-      '/image4.jpg',
+    '/image1.jpg',
+    '/image2.jpg',
+    '/image3.jpg',
+    '/image4.jpg',
   ];
 
   return (
@@ -14,7 +14,7 @@ const Gallery = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
           Sample Gallery
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {sampleImages.map((image, index) => (
             <div
